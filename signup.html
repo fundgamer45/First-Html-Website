@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Fund Gamer</title>
+    <link rel="stylesheet" href="styles-login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="Fund Gamer Channel Logo V3.webp" alt="Fund Gamer Logo" class="header-logo">
+            </div>
+            <div class="title-nav">
+                <h1>Fund Gamer</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">YouTube Videos</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Members</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="https://fundgamer.carrd.co" target="_blank">Portfolio</a></li>
+                        <li><a href="#" id="authLink">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container form-container">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label for="signupUsername">Username:</label>
+                <input type="text" id="signupUsername" name="username" required>
+
+                <label for="signupEmail">Email:</label>
+                <input type="email" id="signupEmail" name="email" required>
+            
+                <label for="signupPassword">Password:</label>
+                <input type="password" id="signupPassword" name="password" required>
+            
+                <label for="signupConfirmPassword">Confirm Password:</label>
+                <input type="password" id="signupConfirmPassword" name="confirmPassword" required>
+            
+                <button type="submit">Sign Up</button>
+                <p id="signupMessage" class="message"></p>
+            </form>
+                       
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Fund Gamer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="auth.js"></script>
+</body>
+</html>

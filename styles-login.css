@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 2px solid #444;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    border-radius: 50%;
+    width: 100px; /* Updated size for the top logo */
+    height: 100px; /* Updated size for the top logo */
+}
+
+.title-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav ul li {
+    font-size: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.form-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 2em; /* Adjust the size as needed */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #fff;
+    cursor: pointer;
+}
+
+form p.message {
+    margin-top: 20px;
+    color: #ff4d4d; /* Error color */
+    font-size: 1em;
+    text-align: center;
+}
+
+form br {
+    display: block;
+    margin: 10px 0; /* Adjust the space as needed */
+}
+
+footer {
+    padding: 20px 0;
+    border-top: 2px solid #444;
+    text-align: center;
+    width: 100%;
+}

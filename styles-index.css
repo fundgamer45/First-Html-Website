@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 2px solid #444;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo {
+    border-radius: 50%;
+    width: 100px; /* Smaller size for the top logo */
+    height: 100px; /* Smaller size for the top logo */
+}
+
+.title-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav ul li {
+    font-size: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.big-image {
+    width: 400px;  /* Set width to 400px */
+    height: 400px; /* Set height to 400px */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    display: block;
+    margin: 20px auto; /* Center the image horizontally */
+}
+
+footer {
+    padding: 20px 0;
+    border-top: 2px solid #444;
+    text-align: center;
+    width: 100%;
+}

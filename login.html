@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fund Gamer</title>
+    <link rel="stylesheet" href="styles-login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="Fund Gamer Channel Logo V3.webp" alt="Fund Gamer Logo" class="header-logo">
+            </div>
+            <div class="title-nav">
+                <h1>Fund Gamer</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">YouTube Videos</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Members</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="https://fundgamer.carrd.co" target="_blank">Portfolio</a></li>
+                        <li><a href="#" id="authLink">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container form-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" name="username" required>
+            
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="password" required>
+            
+                <button type="submit">Login</button>
+                <p id="loginMessage" class="message"></p>
+            </form>
+                       
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Fund Gamer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="auth.js"></script>
+</body>
+</html>
